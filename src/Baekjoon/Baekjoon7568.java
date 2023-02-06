@@ -36,7 +36,7 @@ public class Baekjoon7568 {
 
         //출력
         for(int i = 0; i < N; i++){
-            bw.write(String.valueOf(arr[i][2] + 1) + "\n");
+            bw.write(String.valueOf(arr[i][2] + 1) + " ");
         }
 
         bw.flush();
