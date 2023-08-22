@@ -20,7 +20,7 @@ public class Baekjoon2455 {
 
             people = people - off + on;
             if(people > 10000) //기차의 정원은 최대 10,000명. 정원을 초과하여 타는 경우는 없다.
-                people = 1000;
+                people = 10000;
 
             max = Math.max(max, people);
         }
